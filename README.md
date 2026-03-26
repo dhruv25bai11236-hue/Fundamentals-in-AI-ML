@@ -9,11 +9,17 @@
 
 
 1.**Voice-First Interaction**: Uses advanced speech recognition to capture student responses via microphone, simulating a natural face-to-face exam environment.
+
 2.**Live Content Sourcing**: Integrates with the Wikipedia API to fetch detailed, up-to-date technical definitions and explanations for every topic.
+
 3.**Threaded UI Animation**: Features a real-time ASCII wave animation that runs on a background thread to indicate when the system is actively listening.
+
 4. **Comprehensive Syllabus**: Includes pre-defined question banks for Class 10th and 12th across Physics, Chemistry, Biology, Science, Social Science, and English.
+   
 5. **Automated Scoring Engine**: A "Pro-Analysis" system that calculates marks based on keyword accuracy, technical depth, and response length.
+   
 6. **Performance Reporting**: Generates a final grade (Expert/Good/Needs Work) and provides a "Reference Answer" for comparison.
+
 7. **Smart Preparation Timer**: Includes a built-in 30-second countdown to allow students to organize their thoughts before the microphone activates.
 
 
