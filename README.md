@@ -7,60 +7,45 @@
 
 •**Features**: This project consists of the following features:
 
-•**Voice-First Interaction**: Uses advanced speech recognition to capture student responses via microphone, simulating a natural face-to-face exam environment.
 
-•**Live Content Sourcing**: Integrates with the Wikipedia API to fetch detailed, up-to-date technical definitions and explanations for every topic.
-
-•	**Threaded UI Animation**: Features a real-time ASCII wave animation that runs on a background thread to indicate when the system is actively listening.
-
-•	**Comprehensive Syllabus**: Includes pre-defined question banks for Class 10th and 12th across Physics, Chemistry, Biology, Science, Social Science, and English.
-
-•	**Automated Scoring Engine**: A "Pro-Analysis" system that calculates marks based on keyword accuracy, technical depth, and response length.
-
-•	**Performance Reporting**: Generates a final grade (Expert/Good/Needs Work) and provides a "Reference Answer" for comparison.
-
-•	**Smart Preparation Timer**: Includes a built-in 30-second countdown to allow students to organize their thoughts before the microphone activates.
+1.**Voice-First Interaction**: Uses advanced speech recognition to capture student responses via microphone, simulating a natural face-to-face exam environment.
+2.**Live Content Sourcing**: Integrates with the Wikipedia API to fetch detailed, up-to-date technical definitions and explanations for every topic.
+3.**Threaded UI Animation**: Features a real-time ASCII wave animation that runs on a background thread to indicate when the system is actively listening.
+4. **Comprehensive Syllabus**: Includes pre-defined question banks for Class 10th and 12th across Physics, Chemistry, Biology, Science, Social Science, and English.
+5. **Automated Scoring Engine**: A "Pro-Analysis" system that calculates marks based on keyword accuracy, technical depth, and response length.
+6. **Performance Reporting**: Generates a final grade (Expert/Good/Needs Work) and provides a "Reference Answer" for comparison.
+7. **Smart Preparation Timer**: Includes a built-in 30-second countdown to allow students to organize their thoughts before the microphone activates.
 
 
 
 • **Technologies/Tools Used**: Programming Language: Python 3.11.0 
 
 
-•	**speech_recognition**: For capturing and converting audio input into text.
-
-•	**Wikipedia**: For real-time retrieval of academic summaries and reference data.
-
-•**threading**:AI Viva Examiner System.
-
-•	**re (Regex)**: Used for sophisticated keyword matching and accuracy analysis.
-
-•	**math & time**: For the wave trigonometry and exam countdowns.
+1. **speech_recognition**: For capturing and converting audio input into text.
+2. **Wikipedia**: For real-time retrieval of academic summaries and reference data.
+3. **threading**:AI Viva Examiner System.
+4. **re (Regex)**: Used for sophisticated keyword matching and accuracy analysis.
+5. **math & time**: For the wave trigonometry and exam countdowns.
 
 
 
 • **Steps to install and run the project**: * Prerequisites: Ensure Python is installed. You will also need a working microphone and an internet connection.
 
 
-•	**Install Libraries**: Open your terminal and run pip install speech_recognition, wikipedia & PyAudio.
-
-•	**Download**: Save the script as viva_examiner.py.
-
-•	**Run**: Navigate to the folder in your terminal and type: python viva_examiner.py.
+1. **Install Libraries**: Open your terminal and run pip install speech_recognition, wikipedia & PyAudio.
+2. **Download**: Save the script as viva_examiner.py.
+3. **Run**: Navigate to the folder in your terminal and type: python viva_examiner.py.
 
 
 
 • **Instructions for testing**:
 
 
-•	**Select Class**: When prompted, enter "10th" or "12th" to load the relevant subjects.
-
-•	**Choose Subject**: Select a subject number (e.g., 1 for Physics).
-
-•	**Prepare Answer**: Once the question appears, use the 30-second timer to prepare your answer.
-
-•	**Speak Clearly**: When the "SPEAK NOW" message and wave animation appear, answer the question into your microphone.
-
-•	**Review Report**: Analyze your Accuracy %, Grade, and Final Score. Compare your answer with the provided "Reference Answer" to see what technical keywords you missed.
+1. **Select Class**: When prompted, enter "10th" or "12th" to load the relevant subjects.
+2. **Choose Subject**: Select a subject number (e.g., 1 for Physics).
+3. **Prepare Answer**: Once the question appears, use the 30-second timer to prepare your answer.
+4. **Speak Clearly**: When the "SPEAK NOW" message and wave animation appear, answer the question into your microphone.
+5. **Review Report**: Analyze your Accuracy %, Grade, and Final Score. Compare your answer with the provided "Reference Answer" to see what technical keywords you missed.
 
 
 
